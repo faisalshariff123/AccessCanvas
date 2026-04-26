@@ -47,7 +47,4 @@ The project is split into two distinct services to optimize performance and scal
 * Node.js & npm
 * Tesseract OCR installed on your local machine
 
-### 1. Clone the repository
-```bash
-git clone [https://github.com/faisalshariff123/AccessCanvas.git](https://github.com/faisalshariff123/AccessCanvas.git)
-cd Contora
+
