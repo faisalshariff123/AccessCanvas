@@ -8,14 +8,12 @@ import pytesseract
 from openai import OpenAI
 from dotenv import load_dotenv
 
-# 1. Load the variables from the .env file
 load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
 
-# 2. BULLETPROOF INITIALIZATION
-# Get the key first. If it's empty or None, don't try to build the client!
+
 openrouter_key = os.getenv("OPENROUTER_API_KEY")
 
 if openrouter_key:
